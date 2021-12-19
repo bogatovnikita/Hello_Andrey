@@ -24,6 +24,11 @@ class TestClassActivity : AppCompatActivity() {
 
         var userSecond = user.copy()
 
+        val countTv = findViewById<TextView>(R.id.count_tv)
+        for (i in 1..10) countTv.text = countTv.text.toString() + i.toString()
 
+        val countSecondTv = findViewById<TextView>(R.id.count_second_tv)
+        for (i in 100 downTo 1 step 2) countSecondTv.text =
+            countSecondTv.text.toString() + i.toString()
     }
 }

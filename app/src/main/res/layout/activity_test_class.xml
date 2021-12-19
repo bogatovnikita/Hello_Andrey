@@ -10,7 +10,8 @@
         android:id="@+id/name_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:gravity="center"
         android:textColor="@color/black"
         android:textSize="@dimen/normal_text" />
 
@@ -18,16 +19,37 @@
         android:id="@+id/lastname_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:gravity="center"
         android:textColor="@color/black"
-        android:textSize="@dimen/normal_text"/>
+        android:textSize="@dimen/normal_text" />
 
     <TextView
         android:id="@+id/age_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:gravity="center"
         android:textColor="@color/black"
-        android:textSize="@dimen/normal_text"/>
+        android:textSize="@dimen/normal_text" />
+
+    <TextView
+        android:id="@+id/count_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text" />
+
+    <TextView
+        android:id="@+id/count_second_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text" />
+
 
 </LinearLayout>
