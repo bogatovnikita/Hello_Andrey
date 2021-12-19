@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndrey">
         <activity
+            android:name=".TestClassActivity"
+            android:exported="false" />
+        <activity
             android:name=".SayHelloActivity"
             android:exported="false" />
         <activity

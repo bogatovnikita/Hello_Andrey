@@ -15,5 +15,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SayHelloActivity::class.java)
             startActivity(intent)
         }
+
+        val testButton = findViewById<MaterialButton>(R.id.test_button)
+        testButton.setOnClickListener {
+            val intent = Intent(this, TestClassActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
