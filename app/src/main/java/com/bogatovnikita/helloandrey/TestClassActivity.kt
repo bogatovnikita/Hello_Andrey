@@ -21,5 +21,9 @@ class TestClassActivity : AppCompatActivity() {
 
         val ageTv = findViewById<TextView>(R.id.age_tv)
         ageTv.text = "Возраст " + user.age.toString()
+
+        var userSecond = user.copy()
+
+
     }
 }
