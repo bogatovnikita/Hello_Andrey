@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hello Andrey</string>
+    <string name="say_hello">Поздороваться</string>
 </resources>
